@@ -105,7 +105,7 @@ As mentioned earlier, the performance of the model is tested using 1) 5-fold CV 
 Table 1: Overall Performance of the model on cross-validation and official test set settings.
 
 Overall	| CV-Exp	| On Test Set
---------| :------: | :------: | :------:
+---
 Macro	F1 | **0.74** |	**0.69**
 Weighted F1	| 0.9	| 0.76
 Accuracy |	0.9 |	0.76
