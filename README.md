@@ -103,40 +103,29 @@ python bin/prediction_model.py.py -c models/ar_offensive_detection_svm.config -d
 As mentioned earlier, the performance of the model is tested using 1) 5-fold CV on training data 2) official test set separated from the annotated social media post data
 
 Table 1: Overall Performance of the model on cross-validation and official test set settings.
+
 Overall	| CV-Exp	| On Test Set
 --------| :------: | :------: | :------:
 Macro	F1 | **0.74** |	**0.69**
 Weighted F1	| 0.9	| 0.76
 Accuracy |	0.9 |	0.76
---------| :------: | :------: | :------:
+
 Total Instances	| 56453 |	1103
---------| :------: | :------: | :------:
+
 
 Table 2: Class wise Performance of the model on cross-validation and official test set settings.
 
 Output |	Classes	 | CV-Exp |	# In Train Set	| On Test Set	| # In Test Set
 ------------| :------: | :------: | :------:| :------: | :------:
 Culture, Art and Entertainment | art-and-entertainment | 0.63 | 374 | 0.7 | 57
-------------| :------: | :------: | :------:| :------: | :------:
 Business and Economy | business-and-economy | 0.88 | 9394 | 0.6 | 27
-------------| :------: | :------: | :------:| :------: | :------:
 Crime, War and Conflict | crime-war-conflict | 0.55 | 965 | 0.61 | 147
-------------| :------: | :------: | :------:| :------: | :------:
 Education | education | 0.44 | 70 | 0.67 | 11
-------------| :------: | :------: | :------:| :------: | :------:
 Environment | environment | 0.6 | 132 | 0.63 | 20
-------------| :------: | :------: | :------:| :------: | :------:
 Health | health | 0.94 | 9529 | 0.75 | 26
-------------| :------: | :------: | :------:| :------: | :------:
 Human Rights and Freedom of Speech | human-rights-press-freedom | 0.45 | 365 | 0.53 | 56
-------------| :------: | :------: | :------:| :------: | :------:
 Politics | politics | 0.87 | 13027 | 0.84 | 559
-------------| :------: | :------: | :------:| :------: | :------:
 Science and Technology | science-and-technology | 0.92 | 9541 | 0.61 | 28
-------------| :------: | :------: | :------:| :------: | :------:
 Religion | spiritual | 0.9 | 2654 | 0.73 | 13
-------------| :------: | :------: | :------:| :------: | :------:
 Sports | sports | 0.96 | 9563 | 0.79 | 32
-------------| :------: | :------: | :------:| :------: | :------:
 Others Categories | others | 0.75 | 839 | 0.77 | 127
-------------| :------: | :------: | :------:| :------: | :------:
