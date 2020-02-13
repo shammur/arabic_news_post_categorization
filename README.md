@@ -1,7 +1,7 @@
 
 
 # Arabic Social Media News Post Categorization model.
-This is a release includes model for categorizing news topics (12 categories) for Arabic social media news posts, trained using posts from different online platforms of a well-know News media agency. The model is trained on dataset collected from post 2015 social media (Twitter, Facebook, Youtube, Instagram), in addition the model also included news titles extracted from <dataset> for 6 classes including
+This is a release includes model for categorizing news topics (12 categories) for Arabic social media news posts, trained using posts from different online platforms of a well-know News media agency. The model is trained on dataset collected from post 2015 social media (Twitter, Facebook, Youtube, Instagram), in addition the model also included news titles extracted from <dataset> for 6 classes including Business and Economy, Culture, Health, Sports, Science and Technology.
 
 The model classifies a news post into either of these 12 categories.
 The categories are:
