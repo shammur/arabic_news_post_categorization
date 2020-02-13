@@ -109,7 +109,6 @@ Overall	| CV-Exp	| On Test Set
 Macro	F1 | **0.74** |	**0.69**
 Weighted F1	| 0.9	| 0.76
 Accuracy |	0.9 |	0.76
-
 Total Instances	| 56453 |	1103
 
 
